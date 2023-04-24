@@ -19,10 +19,6 @@
             "value": "",
             "required": true
         },
-//        "HEROKU_API_KEY": {
-//            "description": "Get from account settings in the UI (https://dashboard.heroku.com/account)",
-//            "value": ""
-//        },
         "HEROKU_APP_NAME": {
             "description": "name of your heroku app...used for review apps and one-off dyno creation"
         },
