@@ -19,10 +19,10 @@
             "value": "",
             "required": true
         },
-        "HEROKU_API_KEY": {
-            "description": "Get from account settings in the UI (https://dashboard.heroku.com/account)",
-            "value": ""
-        },
+//        "HEROKU_API_KEY": {
+//            "description": "Get from account settings in the UI (https://dashboard.heroku.com/account)",
+//            "value": ""
+//        },
         "HEROKU_APP_NAME": {
             "description": "name of your heroku app...used for review apps and one-off dyno creation"
         },
@@ -31,13 +31,13 @@
         }
     },
     "formation": {
-        "web": { "quantity": 1, "size": "free" },
-        "orgbuilder": { "quantity": 1, "size": "free" },
-        "pooldeployer": { "quantity": 0, "size": "free" },
-        "poolwatcher": { "quantity": 0, "size": "free" },
-        "oneoffbuilder": { "quantity": 0, "size": "free" },
-        "poolskimmer": { "quantity": 0, "size": "free" },
-        "dynoskimmer": { "quantity": 0, "size": "free" }
+        "web": { "quantity": 1, "size": "eco" },
+        "orgbuilder": { "quantity": 1, "size": "eco" },
+        "pooldeployer": { "quantity": 0, "size": "eco" },
+        "poolwatcher": { "quantity": 0, "size": "eco" },
+        "oneoffbuilder": { "quantity": 0, "size": "eco" },
+        "poolskimmer": { "quantity": 0, "size": "eco" },
+        "dynoskimmer": { "quantity": 0, "size": "eco" }
     },
     "buildpacks": [
         {
