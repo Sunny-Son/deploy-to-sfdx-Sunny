@@ -56,7 +56,7 @@
         "ioredis": "^5.3.2",
         "jsforce": "^1.11.1",
         "lodash.isequal": "^4.5.0",
-	"react-scripts": "^5.0.1",
+	    "react-scripts": "^5.0.1",
         "moment": "^2.29.4",
         "request-promise-native": "^1.0.7",
         "salesforce-jwt-bearer-token-flow": "^0.2.4",
@@ -95,15 +95,15 @@
         "jest-puppeteer": "^8.0.6",
         "lint-staged": "^13.2",
         "lwc-services": "^2.1.1",
-        "mkdirp": "^2.1.5",
+        "mkdirp": "^3.0.1",
         "ncp": "^2.0.0",
         "nodemon": "^2.0.22",
         "npm-run-all": "^4.1.5",
-        "prettier": "2.8.4",
+        "prettier": "2.8.8",
         "puppeteer": "^19.11.0",
-        "ts-jest": "^29.0.5",
+        "ts-jest": "^29.1.0",
         "ts-node": "^10.9.1",
-        "typescript": "^4.9.5"
+        "typescript": "^4.3.0"
     },
     "husky": {
         "hooks": {}
